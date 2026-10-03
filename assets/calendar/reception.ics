@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Oviya and Vasantha//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:reception-202610@oviya-vasantha-wedding
+DTSTAMP:20261003T000000Z
+DTSTART:20261029T123000Z
+SUMMARY:Oviya Sri and Vasantha Kumar — Reception
+LOCATION:KBS Sree Convention Centre
+DESCRIPTION:Reception from 6 PM IST onwards.
+END:VEVENT
+END:VCALENDAR

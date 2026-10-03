@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f9e9ee">
+  <meta name="description" content="Celebrate the wedding of Vasantha Kumar and Oviya Sri. Reception: 29 October 2026, 6 PM onwards. Marriage: 30 October, 5–7:30 AM. KBS Sree Convention Centre.">
+  <title>VO • Vasantha Kumar and Oviya Sri</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <!-- The complete invitation stays available if JavaScript is disabled. -->
+  <section class="opening" id="opening" tabindex="-1" aria-label="Open your wedding invitation" hidden>
+    <div class="opening-inner">
+      <div class="opening-copy">
+        <p class="eyebrow">A wedding invitation</p>
+        <div class="opening-monogram" aria-label="V O">VO</div>
+        <p class="opening-names">Vasantha Kumar<br><span>and</span><br>Oviya Sri</p>
+        <p class="opening-date">29 and 30 October 2026</p>
+        <p class="opening-note">A beautiful beginning, made more special with you.</p>
+      </div>
+      <div class="envelope-column">
+        <div class="envelope-frame">
+          <video id="envelopeVideo" class="envelope-video" playsinline muted preload="metadata" poster="assets/images/envelope.jpg" aria-hidden="true">
+            <source src="assets/media/envelope.mp4" type="video/mp4">
+          </video>
+          <button class="seal-button" id="openEnvelope" aria-label="Open invitation" aria-describedby="openText"></button>
+        </div>
+        <button class="open-text" id="openText" type="button">A beautiful beginning awaits.<span>Tap the seal to open.</span></button>
+      </div>
+    </div>
+  </section>
+
+  <a class="skip-link" href="#celebrations">Skip to event details</a>
+  <main id="invitation" tabindex="-1">
+    <header class="page-header"><a class="brand" href="#home" aria-label="VO invitation, back to top">VO</a><span>29 — 30 October 2026</span><a href="#celebrations">The celebrations</a></header>
+    <section class="hero section" id="home">
+      <img class="ganesha" src="assets/images/ganesha.webp" alt="Lord Ganesha" width="96" height="96">
+      <p class="tamil-heading" lang="ta">திருமண அழைப்பிதழ்</p>
+      <blockquote class="kural" lang="ta"><p>அன்பும் அறனும் உடைத்தாயின் இல்வாழ்க்கை<br>பண்பும் பயனும் அது.</p><cite>திருக்குறள் 45</cite></blockquote>
+      <p class="invite-copy">With the blessings of the Almighty<br>and the love of our families,<br>we warmly invite you to celebrate the wedding of</p>
+      <h1 class="couple-names"><span>Vasantha Kumar</span><span class="join-word">and</span><span>Oviya Sri</span></h1>
+      <p class="hero-date">As we begin our life together,<br>we would be delighted to have you by our side.</p>
+      <a class="text-link" href="#date">Discover the date <span aria-hidden="true">⌄</span></a>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="peacock-window peacock-left" aria-hidden="true"><img src="assets/images/peacock.webp" alt="" width="360" height="360"></div>
+      <div class="peacock-window peacock-right" aria-hidden="true"><img src="assets/images/peacock.webp" alt="" width="360" height="360"></div>
+    </section>
+
+    <section class="section date-section" id="date">
+      <div class="section-heading reveal"><h2>Save the Date</h2><p>A day to cherish. A lifetime to share.</p><p>Tap each card to reveal our wedding date.</p></div>
+      <div class="date-cards reveal" aria-label="Wedding date">
+        <button class="date-card" data-value="October" aria-label="Reveal wedding month"><span class="date-value"><small>Month</small><strong>October</strong></span><span class="date-cover" aria-hidden="true"><span>Month</span><small>Tap to reveal</small></span></button>
+        <button class="date-card" data-value="30" aria-label="Reveal wedding day"><span class="date-value"><small>Day</small><strong>30</strong></span><span class="date-cover" aria-hidden="true"><span>Day</span><small>Tap to reveal</small></span></button>
+        <button class="date-card" data-value="2026" aria-label="Reveal wedding year"><span class="date-value"><small>Year</small><strong>2026</strong></span><span class="date-cover" aria-hidden="true"><span>Year</span><small>Tap to reveal</small></span></button>
+      </div>
+      <p class="reveal-message" id="dateMessage" role="status"></p>
+      <p class="countdown-caption" id="countdownCaption">Counting the moments until we say “forever.”</p>
+      <div class="countdown" id="countdown" aria-label="Time remaining until the marriage">
+        <div><strong id="days">—</strong><span>Days</span></div><div><strong id="hours">—</strong><span>Hours</span></div><div><strong id="minutes">—</strong><span>Minutes</span></div><div><strong id="seconds">—</strong><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section celebrations" id="celebrations">
+      <div class="section-heading reveal"><h2>Our Wedding Celebrations</h2><p>Two joyful occasions, surrounded by the people we cherish.</p></div>
+      <div class="event-grid">
+        <article class="event-card reveal">
+          <div class="event-image"><img src="assets/images/reception-cartoon.webp" width="1200" height="900" loading="lazy" alt="Cartoon couple loosely inspired by Vasantha Kumar and Oviya Sri beneath a floral reception arch"><span class="day-label">Day one</span></div>
+          <div class="event-details"><p class="eyebrow">Thursday · 29 October 2026</p><h3>Reception</h3><p class="event-time">6:00 PM onwards</p><p class="event-description">Join us for an evening of warm wishes,<br>shared laughter, and celebration.</p><p class="venue">KBS Sree Convention Centre</p><div class="event-actions"><a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=KBS%20Sree%20Convention%20Centre" target="_blank" rel="noopener noreferrer">View on map</a><a class="calendar-link" href="assets/calendar/reception.ics" download="VO-Reception.ics">Add to calendar</a></div></div>
+        </article>
+        <article class="event-card reveal">
+          <div class="event-image"><img src="assets/images/marriage-cartoon.webp" width="1200" height="900" loading="lazy" alt="Cartoon couple loosely inspired by Vasantha Kumar and Oviya Sri in a Naidu wedding setting"><span class="day-label">Day two</span></div>
+          <div class="event-details"><p class="eyebrow">Friday · 30 October 2026</p><h3>Marriage</h3><p class="event-time">5:00 – 7:30 AM</p><p class="event-description">As we exchange our sacred vows,<br>honour us with your presence and blessings.</p><p class="venue">KBS Sree Convention Centre</p><div class="event-actions"><a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=KBS%20Sree%20Convention%20Centre" target="_blank" rel="noopener noreferrer">View on map</a><a class="calendar-link" href="assets/calendar/marriage.ics" download="VO-Marriage.ics">Add to calendar</a></div></div>
+        </article>
+      </div>
+      <p class="timezone">All timings are in Indian Standard Time.</p>
+    </section>
+    <section class="section closing reveal"><p class="eyebrow">With Love and Gratitude</p><h2>Some moments become memories<br>because of the people who share them.</h2><p>We look forward to celebrating ours with you.</p><div class="closing-monogram" aria-label="V O">VO</div></section>
+    <footer>With love,<br>Vasantha Kumar, Oviya Sri<br>and our families</footer>
+  </main>
+  <div class="flower-rain" id="flowerRain" aria-hidden="true"></div>
+  <audio id="music" src="assets/media/music.mp3" loop preload="none"></audio>
+  <button class="music-button" id="musicToggle" aria-label="Play background music" aria-pressed="false" hidden><span aria-hidden="true">♫</span><span id="musicLabel">Music off</span></button>
+</body>
+</html>
